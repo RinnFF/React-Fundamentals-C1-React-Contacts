@@ -21,11 +21,13 @@ const App = () => {
       handle: "tylermcginnis",
       avatarURL: "http://localhost:5001/tyler.jpg",
     },
-  ]; 
+  ];
+   
   return (
     <div>
       <ListContacts contacts={contacts} />
-  </div> 
+    </div> 
+  );
 };
 
 export default App;
